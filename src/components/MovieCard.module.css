@@ -1,0 +1,57 @@
+.movieCard {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.movieImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movieTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.movieRating {
+  font-size: 16px;
+  color: #f39c12;
+}
+
+.fullStar {
+  color: #f39c12;
+  font-size: 20px;
+}
+
+.emptyStar {
+  color: #ccc;
+  font-size: 20px;
+}
+
+.detailsButton {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.wishlistButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: gray;
+  transition: color 0.3s;
+}
+
+.wishlistButton.active {
+  color: red;
+}

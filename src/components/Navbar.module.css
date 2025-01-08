@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navList li {
+    font-size: 18px;
+  }
+  
+  .navList a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navList a:hover {
+    color: #f39c12;
+  }
+  
+  .active {
+    font-weight: bold;
+    color: #f39c12;
+  }
+  

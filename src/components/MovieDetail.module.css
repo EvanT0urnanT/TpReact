@@ -1,0 +1,120 @@
+.container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.movieDetails {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.poster {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movieInfo p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.movieInfo p span {
+  font-weight: bold;
+  
+}
+
+.wishlistButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: gray;
+  transition: color 0.3s, transform 0.2s;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.wishlistButton.active {
+  color: red;
+}
+
+.wishlistButton:hover {
+  transform: scale(1.2);
+}
+
+.castList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+
+.castList li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 120px;
+}
+
+.castList img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 22px;
+  color: #333;
+  margin-top: 30px;
+  border-bottom: 2px solid #f39c12;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.fullStar {
+  color: #f39c12;
+  font-size: 20px;
+}
+
+.emptyStar {
+  color: #ddd;
+  font-size: 20px;
+}
